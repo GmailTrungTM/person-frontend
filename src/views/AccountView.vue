@@ -1,15 +1,15 @@
 <template>
   <h1>Deine Notizen</h1>
   <create-note-card></create-note-card>
-  <notes-card :notes="this.notes"></notes-card>
+  <note-card-list :notes="this.notes"></note-card-list>
 </template>
 
 <script>
-import NotesCard from '@/components/NotesCard'
-import CreateNoteCard from '@/components/CreateNoteCard'
+import NoteCardList from '@/components/NoteCardList'
+import CreateNoteCard from '@/components/NoteCreateCard'
 export default {
   name: 'AccountView',
-  components: { NotesCard, CreateNoteCard },
+  components: { NoteCardList, CreateNoteCard },
   data () {
     return {
       notes: [
@@ -25,7 +25,7 @@ export default {
     }
     fetch(endpoint, requestOptions)
       .then(response => response.json())
-      .then(result => result.forEach(note => this.notes.push(note)))
+      .then(result => result.forEach(note => { this.notes.push(note) }))
       .catch(error => console.log('error', error))
   }
 }
