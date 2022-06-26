@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
   /*Logo*/
-  .fa-book-open, logo{
+  .fa-book-open {
     font-size: 120px;
     color: #0d6efd;
   }
