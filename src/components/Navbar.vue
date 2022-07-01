@@ -9,7 +9,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <router-link class="nav-link" to="/">Home</router-link>
+<!--          <router-link class="nav-link" to="/">Home</router-link>-->
           <router-link class="nav-link" to="/account">Account</router-link>
           <router-link class="nav-link" to="/about">About</router-link>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <h1>Deine Notizen</h1>
+  <h1>Your Notes</h1>
   <create-note-card></create-note-card>
   <note-card-list :notes="this.notes"></note-card-list>
 </template>

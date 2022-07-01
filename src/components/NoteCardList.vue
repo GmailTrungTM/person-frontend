@@ -24,8 +24,8 @@ export default {
 
 <style scoped>
   .size_outside{
-    width: 100%;
-    padding: 20px 20px;
-    margin: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 </style>

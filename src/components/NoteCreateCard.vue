@@ -1,7 +1,7 @@
 <template>
   <!-- Button trigger modal -->
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Neue Notiz Erstellen
+    Create New Note
   </button>
 
   <!-- Modal -->
@@ -11,7 +11,7 @@
         <form class="text-start needs-validation" novalidate>
           <div class="modal-header">
               <div class="mb-3">
-                <input id="title" v-model="title" class="form-control" placeholder="Titel deiner Notiz" required
+                <input id="title" v-model="title" class="form-control" placeholder="Title Of Your Note" required
                        type="text"/>
                 <div class="invalid-feedback">
                   Please provide a title.
@@ -29,7 +29,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button class="btn btn-primary" type="submit" @click="createNote">Save changes</button>
+            <button class="btn btn-primary" type="submit" @click="createNote">Save Changes</button>
           </div>
         </form>
       </div>
@@ -76,7 +76,7 @@ export default {
     validate () {
       let valid = true
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.querySelectorAll('.needs-validation')
+      const forms = document.querySelectorAll('.needs-validation')
 
       // Loop over them and prevent submission
       Array.from(forms).forEach(form => {
