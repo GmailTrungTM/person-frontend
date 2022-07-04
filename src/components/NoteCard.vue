@@ -8,7 +8,7 @@
     </div>
     <div class="card-body">
       <p class="card-text">{{ parsetime(note.createdtime) }}</p>
-      <button @click="toggleEdit">Edit</button>
+      <button class="btn btn-light" @click="toggleEdit">Edit</button>
       <div>
         <h5 v-if="!editing" class="card-title">{{ note.title }}</h5>
         <input type="text" v-if="editing" v-model="updatedNote.title">

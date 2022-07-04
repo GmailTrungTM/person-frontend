@@ -18,7 +18,7 @@
           <label for="message">Message</label>
           <textarea name="message" id="message"></textarea>
         </div>
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
   </section>
@@ -28,28 +28,40 @@
       <div class="box">
         <i class="fa-solid fa-hotel fa-3x"></i>
         <h3>Location</h3>
-        <p>50 Main St, Boston MA</p>
+        <p>Treskowallee, Berlin</p>
       </div>
       <div class="box">
         <i class="fa-solid fa-phone fa-3x"></i>
         <h3>Phone Number</h3>
-        <p>(617) 555-5555</p>
+        <p>124526/23456778</p>
       </div>
       <div class="box">
         <i class="fa-solid fa-envelope fa-3x"></i>
         <h3>Email Address</h3>
-        <p>frontdesk@hotelbt.co
+        <p>frontdesk@noteblock.com
         </p>
       </div>
     </div>
   </section>
   <footer id="main-footer">
-    <p>Hotel BT &copy; 2022, All Rights Reserved</p>
+    <p>Noteblock &copy; 2022, All Rights Reserved</p>
   </footer>
   </body>
 </template>
 
 <style>
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.bg-dark {
+  background: #E8E8E8;
+  color: #fff;
+}
+
 #contact-form .form-group {
   margin-bottom: 20px;
 }
@@ -74,5 +86,23 @@
 #contact-form textarea:focus {
   outline: none;
   border-color: #0d6efd;
+}
+
+#main-footer {
+  text-align: center;
+  background: #0d6efd;
+  color: #fff;
+  padding: 20px;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i{
+  margin-bottom: 10px;
 }
 </style>
