@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <div class="container-fluid">
       <h1 class="logo">
-        <a class="navbar-brand" href="/"><span class="text-primary"><i class="fas fa-book-open"></i> Notiz</span>block</a>
+        <a class="navbar-brand" href="/"><span class="text-primary"><i class="fas fa-book-open"></i> Note</span>block</a>
       </h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
