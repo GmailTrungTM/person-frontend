@@ -7,6 +7,7 @@
 <script>
 import NoteCardList from '@/components/NoteCardList'
 import CreateNoteCard from '@/components/NoteCreateCard'
+
 export default {
   name: 'AccountView',
   components: { NoteCardList, CreateNoteCard },

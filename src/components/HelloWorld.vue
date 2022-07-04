@@ -3,8 +3,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <body id="home">
     <div class="content">
-      <h1>Dein Online-Notizblock</h1>
-      <p>Alle deine Notizen an einem Platz</p>
+      <h1>Your Online-Noteblock</h1>
+      <p>All Your Notes At One Place</p>
     </div>
   </body>
 </template>
