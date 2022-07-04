@@ -23,8 +23,8 @@ describe('Testing NoteCard.vue', () => {
 
   it.each`
     done       | expected
-    ${true}    | ${'erledigt'}
-    ${false}   | ${' nicht erledigt'}
+    ${true}    | ${'checkThis Note Is Done'}
+    ${false}   | ${'checkThis Note Is Not Done'}
   `('should render status of note', ({ done, expected }) => {
     // when
     const testNote = {
