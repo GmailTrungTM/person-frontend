@@ -17,7 +17,6 @@
         <p v-if="!editing" class="card-text">{{ note.body }}</p>
         <input type="text" v-if="editing" v-model="updatedNote.body">
       </div>
-      <p class="card-text">{{ note.id }}</p>
     </div>
     <form>
       <div class="card-footer">
