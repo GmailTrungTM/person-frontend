@@ -31,7 +31,7 @@ describe('Testing NoteCard.vue', () => {
       id: 4,
       title: 'Urlaubsziele',
       body: 'Vietnam, Korea, Japan',
-      done: true
+      done
     }
     const wrapper = mount(NoteCard, {
       propsData: {

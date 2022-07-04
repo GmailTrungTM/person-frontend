@@ -3,13 +3,19 @@ import AccountView from '@/views/AccountView.vue'
 import NoteCardList from '@/components/NoteCardList'
 import NoteCreateCard from '@/components/NoteCreateCard'
 
+global.fetch = jest.fn(() =>
+  Promise.resolve({
+    json: () => Promise.resolve([])
+  })
+)
+
 describe('Testing Persons.vue', () => {
   it('should show page title', () => {
     // when
     const wrapper = mount(AccountView)
 
     // then
-    expect(wrapper.text()).toMatch('AccountView')
+    expect(wrapper.text()).toMatch('Your Notes')
   })
 
   it('should have persons card list component', () => {
