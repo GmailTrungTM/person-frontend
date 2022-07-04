@@ -6,6 +6,9 @@
         <HelloWorld></HelloWorld>
         <router-link class="btn" to="/account"><i class="fas fa-chevron-right"></i>To Your Notes</router-link>
       </div>
+      <footer id="main-footer">
+        <p>Noteblock &copy; 2022, All Rights Reserved</p>
+      </footer>
   </body>
 </template>
 
@@ -42,4 +45,11 @@ export default {
     height: 100%;
     padding: 0 20px;
   }
+  #main-footer {
+    text-align: center;
+    background: #0d6efd;
+    color: #fff;
+    padding: 20px;
+  }
+
 </style>

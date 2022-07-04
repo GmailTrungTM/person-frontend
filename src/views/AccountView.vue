@@ -1,7 +1,9 @@
 <template>
+  <body>
   <h1>Your Notes</h1>
   <create-note-card></create-note-card>
   <note-card-list :notes="this.notes" @mutatenote="this.fetchnotes" @deletenote="this.deletenote"></note-card-list>
+  </body>
 </template>
 
 <script>
